@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HTML5 + CSS3 Website Layout Basic</title>
+<link rel="stylesheet" type="text/css" href="css/html5style.css">
+</head>
+<body>
+	<header id="main_header">
+		<hgroup id="title">
+			<h1>Layout Development</h1>
+			<h2>HTML5와 CSS3</h2>
+		</hgroup>
+		<nav id="main_gnb">
+			<h1 class="hidden">메인 메뉴상</h1>
+			<ul>
+				<li><a href="#">Web</a></li>
+				<li><a href="#">Mobile</a></li>
+				<li><a href="#">Game</a></li>
+				<li><a href="#">Simulation</a></li>
+				<li><a href="#">Data</a></li>
+			</ul>
+		</nav>
+		<nav id="main_lnb">
+			<h1 class="hidden">메인 메뉴하</h1>
+			<ul>
+				<li><a href="#">HTML5</a></li>
+				<li><a href="#">CSS3</a></li>
+				<li><a href="#">JavaScript</a></li>
+				<li><a href="#">jQuery</a></li>
+				<li><a href="#">Node.js</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="content">
+		<section id="main_section">
+			<h1 class="hidden">본문 내용</h1>
+			<article class="main_article">
+				<h1>주요 기사</h1>
+				<p>화면이 가로 방향으로 휜 삼성 갤럭시 라운드와 경쟁할 LG의 곡면 디스플레이 스마트폰인 G 플랙스가 공개되었습니다. LG G플랙스는 삼성 갤럭시 라운드와 달리 화면이 상하 방향으로 휘어져 있습니다. G플렉스의 스펙은 앞서 출시된 LG G2와 비슷합니다. 프로세서는 퀄컴 스냅드래곤 800(2,3GHz)을 탑재하고 있고 2GB 메모리, 32GB 저장 공간, 1,300만 화소 후면 카메라(손떨림 보정 지원), 6인치 1280x720 해상도를 지원하는 OLED 디스플레이가 탑재되어 있습니다. 이 외에도 LTE-A를 지원하며 G2처럼 후면 전원/음량 조절 버튼이 배치되어 있습니다. 자유롭게 화면을 배치/변경할 수 있는 '온 스크린' 버튼도 장착되어 있습니다. 반면 저장 공간 확장을 위한 마이크로 Sd 카드 슬롯은 제외되어 있으며 배터리도 교체 타입이 아닌 일체형입니다. 마이크로SD 슬롯을 제외한 이유는 휘어진 기구 구조에 따른 저장 장치의 안정성을 고려했기 때문이라고 합니다. G 플랙스는 올 12일 출시되며 출고가는 아직 정해지지 않았습니다.</p>
+			</article>
+			<article class="main_article">
+				<h1>주요 기사</h1>
+				<p>바이오 듀오 13SVD13216PK/B에는 인텔 4세대 모바일 코어 i7 프로세서 4500U가 탑재되어 있습니다. 프로세서 숫자 뒤에 U가 붙으면 울트라북을 위한 저전력 프로세서로 이해하시면 됩니다. 코어 i7 4500U 프로세서는 작동 클럭 1.8GHz, 터보 부스트 최대 클럭 3.0GHz, L3 캐시 4MB, 하이퍼 쓰레딩 탑재, 새로운 내장 그래픽인 인텔 HD4000 탑재, TDP 15W등의 스펙을 갖습니다. 4세대 U 시리즈에서 가장 눈에 띄는 변화는 프로세서와 사우스 브릿지칩셋을 하나로 패키징한 SoC라는 점입니다</p>
+			</article>
+			<article class="main_article">
+				<h1>주요 기사</h1>
+				<p>차세대 IT 기술의 화두는 '빅데이터의 효율적인 관리'입니다. 넘처나는 디지털 소스와 방대한 분량의 데이터들을 저장하고 이를 효율적으로 활용하기 위해서는 많은 시간과 비용이 투입됩니다. 빅데이터는 단순히 '방대한 데엍'만을 뜻하지 않습니다. 최근 이슈가 되고 있는 '빅데이터'는 디지털 경제의 확산으로 발생한 여러 가지 형태의 대규모 데이터를 의미하며 대량의 정보를 분석함으로 인해 개인의 행동, 생각, 성향 등을 파악, 다양한 분야에 활용할 수 있습니다.</p>
+			</article>
+		</section>
+		<aside id="main_aside">
+			<h1 class="hidden">사이드 메뉴</h1>
+			<input id="first" type="radio" name="tab" checked="checked">
+			<input id="second" type="radio" name="tab">
+			<section class="buttons">
+				<h1 class="hidden">메뉴선택</h1>
+				<label for="first">First</label>
+				<label for="second">Second</label>
+			</section>
+			<div class="tab_item">
+				<ul>
+					<li class="item"><a href="#">
+						<div class="thumbnail">
+							<img src="http://placehold.it/45x45"/>
+						</div>
+						<div class="description">
+							<strong>HTML5 Canvas</strong><p>2012-03-15</p>
+						</div>
+					</a></li>
+					<li class="item"><a href="#">
+						<div class="thumbnail">
+							<img src="http://placehold.it/45x45">
+						</div>
+						<div class="description">
+							<strong>HTML5 Audio</strong><p>2012-03-15</p>
+						</div>
+					</a></li>
+					<li class="item"><a href="#">
+						<div class="thumbnail">
+							<img src="http://placehold.it/45x45">
+						</div>
+						<div class="description">
+							<strong>HTML5 Video</strong><p>2012-03-15</p>
+						</div>
+					</a></li>
+					<li class="item"><a href="#">
+						<div class="thumbnail">
+							<img src="http://placehold.it/45x45">
+						</div>
+						<div class="description">
+							<strong>HTML5 Semantic Web</strong><p>2012-03-15</p>
+						</div>
+					</a></li>
+				</ul>
+			</div>
+			<div class="tab_item">
+				<ul>
+					<li class="item"><a href="#">
+						<div class="thumbnail">
+							<img src="http://placehold.it/45x45">
+						</div>
+						<div class="description">
+							<strong>CSS3 Transition</strong><p>2012-03-15</p>
+						</div>		
+					</a></li>
+					<li class="item"><a href="#">
+						<div class="thumbnail">
+							<img src="http://placehold.it/45x45">
+						</div>
+						<div class="description">
+							<strong>CSS3 Animation</strong><p>2012-03-15</p>
+						</div>		
+					</a></li>
+					<li class="item"><a href="#">
+						<div class="thumbnail">
+							<img src="http://placehold.it/45x45">
+						</div>
+						<div class="description">
+							<strong>CSS3 Border</strong><p>2012-03-15</p>
+						</div>		
+					</a></li>
+					<li class="item"><a href="#">
+						<div class="thumbnail">
+							<img src="http://placehold.it/45x45">
+						</div>
+						<div class="description">
+							<strong>CSS3 Box</strong><p>2012-03-15</p>
+						</div>		
+					</a></li>
+				</ul>
+			</div>
+		</aside>
+	</div>
+	<footer id="main_footer">
+		<h3>HTML5와 CSS3 웹 사이트</h3>
+		<address>Website Layout Basic</address>
+	</footer>
+</body>
+</html>

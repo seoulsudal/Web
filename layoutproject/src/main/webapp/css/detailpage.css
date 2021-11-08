@@ -1,0 +1,206 @@
+@charset "UTF-8";
+/* 초기화 */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'times new roman', serif;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: 0;
+}
+.hidden{
+	display: none;
+}
+
+/* 공간 구분 */
+#buttons{
+	width: 54px;
+	height: 54px;
+}
+header{
+	/* 중앙 정렬 */
+	width: 1050px;
+	margin: 0 auto;
+	/* 절대 좌표 */
+	height: 0px;
+	position: relative;
+	border: 1px solid black;
+}
+#totalinfo{
+	width: 1050px;
+	margin: 0 auto;
+	position: relative;
+	border: 1px solid black;
+}
+#goods{
+	width: 1050px;
+	margin: 0 auto;
+	height: 878px;
+	position: relative;
+	border: 1px solid black;
+	background: yellow;
+}
+#description{
+	width: 1010px;
+	margin: 0 auto;
+	position: relative;
+	border: 1px solid black;
+	background: red;
+}
+#infomation{
+	width: 1010px;
+	margin: 0 auto;
+	height: 3430px;
+	position: relative;
+	border: 1px solid black;
+	background: blue;
+}
+#review{
+	width: 1010px;
+	margin: 0 auto;
+	height: 850px;
+	position: relative;
+	border: 1px solid black;
+	background: gray;
+}
+#qna{
+	width: 1010px;
+	margin: 0 auto;
+	height: 961px;
+	position: relative;
+	border: 1px solid black;
+	background: green;
+}
+
+/* 세부 공간구분 */
+#picture{
+	width: 430px;
+	height: 552px;
+	position: absolute;
+	left: 20px;
+	top: 10px;
+	background: gray;
+}
+#name{
+	width: 560px;
+	height: 99px;
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	background: gray;
+}
+#dcinfo{
+	width: 560px;
+	height: 20px;
+	position: absolute;
+	right: 20px;
+	top: 119px;
+	background: gray;
+}
+#price{
+	width: 560px;
+	height: 99px;
+	position: absolute;
+	right: 20px;
+	top: 149px;
+	background: gray;
+}
+#info{
+	width: 560px;
+	height: 523px;
+	position: absolute;
+	right: 20px;
+	top: 258px;
+	background: gray;
+}
+#goods_detail{
+	width: 1010px;
+	height: 220px;
+	position: absolute;
+	margin: 0 auto;
+	top: 97px;
+	background: silver;
+}
+#why_kurly{
+	width: 1010px;
+	height: 763px;
+	position: absolute;
+	margin: 0 auto;
+	top: 415px;
+	background: maroon;
+}
+#center_fst{
+	width: 1010px;
+	height: 458px;
+	position: absolute;
+	margin: 0 auto;
+	top: 1275px;
+	background: olive;
+}
+#center_e{
+	width: 1010px;
+	height: 838px;
+	position: absolute;
+	margin: 0 auto;
+	top: 1831px;
+	background: fuchsia;
+}
+#center_c{
+	width: 1010px;
+	height: 409px;
+	position: absolute;
+	margin: 0 auto;
+	top: 2766px;
+	background: teal;
+}
+#center_lst{
+	width: 1010px;
+	height: 59px;
+	position: absolute;
+	margin: 0 auto;
+	top: 3273px;
+	background: lime;
+}
+#share{
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	z-index: 3;
+}
+#product{
+	position: relative;
+	margin: 0 auto;
+	width: 1010px;
+	height: 368px;
+	top: 10px;
+	background: purple;
+}
+#product > .photo{
+	position: relative;
+	top: 20px;
+	right: 100px;
+	left: 100px;
+	width: 180px;
+	height: 320px;
+	background: fuchsia;
+	z-index: 3;
+	float: left;
+	text-align: center;
+}
+#goods_tab{
+	position: relative;
+	top: 20px;
+	width: 100%;
+	height: 60px;
+	background: black;
+	z-index: 3;
+	color: white;
+}

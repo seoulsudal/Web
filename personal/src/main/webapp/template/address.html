@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>우편번호 찾기</title>
+	<script type="text/javascript">
+	function openwin() {
+		window.open("zipcode.html", "", "width=400, height=250, resizable=no");
+	}
+	</script>
+</head>
+<body>
+	<p>우편번호 찾기</p>
+	<form method="post" name="form1">
+		<p>
+			<input type="text" name="zipcode" size="5">
+			<input type="button" value="우편번호" onclick="openwin()">
+		</p>
+		<input type="text" name="addr1" size="30"><br>
+		<input type="text" name="addr2" size="30" placeholder="상세 주소">
+	</form>
+</body>
+</html>

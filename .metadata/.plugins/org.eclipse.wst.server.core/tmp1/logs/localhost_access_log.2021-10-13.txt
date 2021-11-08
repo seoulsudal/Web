@@ -1,0 +1,9 @@
+127.0.0.1 - - [13/Oct/2021:20:57:08 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [13/Oct/2021:20:57:09 +0900] "GET /layoutproject/index.html HTTP/1.1" 200 3836
+0:0:0:0:0:0:0:1 - - [13/Oct/2021:20:57:09 +0900] "GET /layoutproject/image/2.jpg HTTP/1.1" 200 20857
+0:0:0:0:0:0:0:1 - - [13/Oct/2021:20:57:09 +0900] "GET /layoutproject/css/main.css HTTP/1.1" 200 2906
+0:0:0:0:0:0:0:1 - - [13/Oct/2021:20:57:09 +0900] "GET /layoutproject/image/1.jpg HTTP/1.1" 200 46575
+0:0:0:0:0:0:0:1 - - [13/Oct/2021:20:57:09 +0900] "GET /layoutproject/css/index.css HTTP/1.1" 200 1181
+0:0:0:0:0:0:0:1 - - [13/Oct/2021:20:57:09 +0900] "GET /layoutproject/image/3.jpg HTTP/1.1" 200 26381
+0:0:0:0:0:0:0:1 - - [13/Oct/2021:20:57:09 +0900] "GET /layoutproject/image/logo.png HTTP/1.1" 200 6583
+0:0:0:0:0:0:0:1 - - [13/Oct/2021:20:57:09 +0900] "GET /favicon.ico HTTP/1.1" 404 818

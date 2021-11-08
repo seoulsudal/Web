@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>입력 양식의 select와 textarea 확인</title>
+</head>
+<body>
+	<form>
+	<table>
+		<tr>
+			<td>컴퓨터 운영체제</td>
+			<td>
+				<select name="OS" size="3" multiple="multiple">
+					<option value="windows">윈도우7</option>
+					<option value="linux">리눅스</option>
+					<option value="solrais">솔라리스</option>
+					<option value="mac">맥</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>웹 프로그래밍 과목(1)</td>
+			<td>
+				<select name="lesson">
+					<option>JAVA</option>
+					<option>JSP</option>
+					<option>HTML5</option>
+					<option>jQuery</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>웹 프로그래밍 과목(2)</td>
+			<td>
+				<select name="Web">
+					<optgroup label="web">
+						<option>HTML5</option>
+						<option>CSS</option>
+						<option>JavaScript</option>
+					</optgroup>
+					<optgroup label="웹 표준">
+						<option>구조</option>
+						<option>동작</option>
+						<option>표현</option>
+					</optgroup>
+				</select>
+			</td>
+		</tr>
+	</table>
+	</form>
+</body>
+</html>

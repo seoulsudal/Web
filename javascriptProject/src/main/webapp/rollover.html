@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	<style type="text/css">
+		ul{
+			padding: 0; margin: 0; width: 670px; list-style: none;
+		}
+		
+		li{
+			float: left; 
+		}
+		
+		ul:after {
+			content: ''; display: block; float: none; clear: both;
+		}
+		
+		img{
+			border: none;
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li>
+			<a href="#" onmouseover="changeImage('image/jquery_on.jpg', 'jquery');" onmouseout="changeImage('image/jquery.jpg', 'jquery');">
+			<img src="image/jquery.jpg" id="jquery"></a>
+		</li>
+		<li>
+			<a href="#" onmouseover="changeImage('image/javascript_on.jpg', 'js');" onmouseout="changeImage('image/javascript.jpg', 'js');">
+			<img src="image/javascript.jpg" id="js"></a>
+		</li>
+		<li>
+			<a href="#" onmouseover="changeImage('image/css_on.jpg', 'css');" onmouseout="changeImage('image/css.jpg', 'css');">
+			<img src="image/css.jpg" id="css"></a>
+		</li>
+		<li>
+			<a href="#" onmouseover="changeImage('image/html_on.jpg', 'html');" onmouseout="changeImage('image/html.jpg', 'html');">
+			<img src="image/html.jpg" id="html"></a>
+		</li>
+	</ul>
+	
+	<script type="text/javascript" src="js/rollover.js"></script>
+</body>
+</html>

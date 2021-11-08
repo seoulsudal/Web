@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	.thumbnail{
+		padding: 0; margin: 0;
+		list-style: none;
+		width: 120px; float: left;
+	}
+	
+	.thumbnail li{
+		width: 100px; height: 100px; padding: 5px 10px;
+	}
+	
+	.thumbnail img{
+		width: 100px; height: 100px;
+	}
+	
+	.view{
+		float: left; width: 500px; height: 320px; padding: 5px 0;
+	}
+	
+	.view img{
+		width: 500px; height: 320px;
+	}
+</style>
+</head>
+<body>
+	<ul class="thumbnail">
+		<li><a href="#" onclick="setImage(0); return false;"><img src="image/1.jpg"></a></li>
+		<li><a href="#" onclick="setImage(1); return false;"><img src="image/2.jpg"></a></li>
+		<li><a href="#" onclick="setImage(2); return false;"><img src="image/3.jpg"></a></li>
+	</ul>
+	<div class="view">
+		<img src="image/1.jpg" id="target">
+	</div>
+	<script type="text/javascript" src="js/image.js"></script>
+</body>
+</html>
